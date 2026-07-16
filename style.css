@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #5A5A5A;
+}
+
+.head {
+  width: 100vh;
+  height: 150px;
+  background-color: #5F606C;
+  border: 1px solid #D8DBFF;
+}
+.head select {
+  background-color: #C6CBFF;
+  color: black;
+  width: 100vh;
+  max-width: 150px;
+  height: 40px;
+  font-size: 18px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
