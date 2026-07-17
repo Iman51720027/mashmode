@@ -21,3 +21,32 @@
   left: 10px;
   top: 10px;
 }
+
+.mods-stock {
+  width: 100vh;
+  max-width: 350px ;
+  height: 300px;
+  background-color: #7B7B7B;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+  left: 30px;
+}
+
+
+.mods-stock h1 {
+  background: none;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  text-transform: capitalize;
+}
+
+.mods-stock a {
+  color: white;
+  text-decoration: none;
+  background: none;
+  position: relative;
+  left: 140px;
+  top: 130px;
+}
