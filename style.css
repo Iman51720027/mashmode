@@ -4,18 +4,24 @@
 }
 
 body {
-    background-color: white;
+    background-color: #E3E6FF;
     color: black;
 }
 h1 {
     margin: 10px;
     text-transform: uppercase;
+    color: #005B7A;
+    text-align: center;
 }
 #upload-button {
-    width: 100px;
+    width: 110px;
     height: 50px;
-    font-size: 18px;
+    font-size: 19px;
     margin: 10px;
+    text-transform: uppercase;
+    background-color: #00E9FF;
+    color: white;
+    border: 1px solid black;
 }
 .head-line-ar {
     margin-top: 10px;
