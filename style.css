@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: #E3E6FF;
+    background-color: #787DFF;
     color: black;
 }
 h1 {
     margin: 10px;
     text-transform: uppercase;
-    color: #005B7A;
+    color: #005D7C;
     text-align: center;
 }
 #upload-button {
@@ -19,9 +19,9 @@ h1 {
     font-size: 19px;
     margin: 10px;
     text-transform: uppercase;
-    background-color: #00E9FF;
+    background-color: #2904A9;
     color: white;
-    border: 1px solid black;
+    border: none;
 }
 .head-line-ar {
     margin-top: 10px;
@@ -30,4 +30,13 @@ h1 {
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
+}
+
+.gear-class i {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 390px;
+    bottom: 50px;
+    cursor: pointer;
 }
