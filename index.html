@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- font assome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mashmodes</title>
 </head>
 <body>
+
+    <!-- mashmods heading -->
     <h1 id="heading">mashmodes</h1>
     <div class="gear-class">
+        <!-- icon -->
         <i class="fa-sharp fa-solid fa-gear" id="settings"></i>
+        
     </div>
-    <button id="upload-button">upload</button>
+    <!-- back button -->
+    <button id="back">BACK</button>
+    <!-- upload image -->
+    
+    <div class="app">
+
+    <input
+        type="file"
+        id="galleryInput"
+        accept="image/*"
+    >
+
+    <button id="upload-button" onclick="openGallery()">upload</button>
+
+    </div>
+    <!-- uplolad button -->
     <hr class="head-line-ar" id="addLine">
+    <!-- hr line -->
     <p class="upload-message">not added mods</p>
+    <div id="preview"></div>
     <script type="text/javascript" charset="utf-8" src="script.js">
         
     </script>
