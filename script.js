@@ -10,6 +10,8 @@ var heading = document.getElementById("heading");
 var upload = document.getElementById("upload-button");
 // settings button variable
 var settings = document.getElementById("settings");
+// settings-ui varible 
+let settingsUI = document.getElementById("settings-ui");
 // settings me jab click hota bei
 settings.addEventListener("click",() => {
   upload.style.display = "none";
@@ -18,6 +20,7 @@ settings.addEventListener("click",() => {
   heading.style.display = "none";
   uploadMessage.style.display = "none";
   backBtn.style.display = "flex";
+  settingsUI.style.display = "block"
 })
 // back me click hota hei
 backBtn.addEventListener("click",() => {

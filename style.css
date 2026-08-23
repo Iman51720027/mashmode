@@ -67,16 +67,48 @@ h1 {
     font-size: 28px;
     cursor: pointer;
     position: relative;
-    left: 380px;
-    bottom: 40px;
+    left: 330px;
+    bottom: 50px;
 }
 
+/* settings ui style */
+#settings-ui {
+    width: 300px;
+    height: 300px;
+    background-color: #4297B7;
+    margin: 10px;
+    display: none;
+}
+/* settings ui me agar h1 hota hei */
+#settings-ui h1 {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+/* settings ui ke under agar acount hota hei to */
+#settings-ui #acounts {
+    padding: 10px;
+    color: white;
+}
+/* settings ui ke under hr hota hei to */
+#settings-ui .unline {
+    width: 150px;
+    margin-left: 78px;
+    
+}
+/* settings ke under Circle user ka icon hota hei to*/
+#acounts i {
+    padding-right: 2px;
+    padding-top: 8px;
+}
+/* normal button style */
 
 button {
     width: 100%;
     padding: 17px;
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
     background: #4f7cff;
     color: white;
     font-size: 17px;
