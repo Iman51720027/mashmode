@@ -1,0 +1,69 @@
+doctype html
+html(lang="en")
+    head
+        //- Font Awesome link
+        link(
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+            integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        )
+
+        //- CSS link
+        link(rel="stylesheet", href="style.css")
+
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title mashmodes
+
+    body
+
+        //- Mashmods heading
+        h1#heading mashmodes
+
+        .gear-class
+            //- Settings icon
+            i.fa-sharp.fa-solid.fa-gear#settings
+
+        //- Back button
+        button#back BACK
+
+        //- Upload image
+        .app
+            input(
+                type="file"
+                id="galleryInput"
+                accept="image/*"
+            )
+
+            button#upload-button(
+                onclick="openGallery()"
+            ) upload
+
+        //- HR line
+        hr.head-line-ar#addLine
+
+        //- Upload message
+        p.upload-message not added mods
+
+        //- Preview
+        #preview
+
+        //- Settings UI
+        #settings-ui
+            h1 settings ui
+
+            hr.unline
+
+            p#acounts
+                i.fa-solid.fa-circle-user
+                | acount
+
+            hr
+
+        script(
+            type="text/javascript"
+            charset="utf-8"
+            src="script.js"
+        )
