@@ -5,14 +5,14 @@
 /* body style*/
 body {
     font-family: sans-serif;
-    background-color: #3c42f9;
+    background-color: #696EFF;
     color: black;
 }
 /* heading style*/
 h1 {
     margin: 10px;
     text-transform: uppercase;
-    color: #BDEFFF;
+    color: #9BE7FF;
     text-align: center;
 }
 /* upload button style*/
@@ -22,7 +22,7 @@ h1 {
     font-size: 19px;
     margin: 10px;
     text-transform: uppercase;
-    background-color: #39b0ff;
+    background-color: #0397A7;
     color: white;
     border: none;
     cursor: pointer;
@@ -41,7 +41,7 @@ h1 {
     font-size: 19px;
     margin: 10px;
     text-transform: uppercase;
-    background-color: #39b0ff;
+    background-color: #FF7939;
     color: white;
     border: none;
     cursor: pointer;
@@ -73,10 +73,9 @@ h1 {
 
 /* settings ui style */
 #settings-ui {
-    width: 300px;
+    width: 100%;
     height: 300px;
-    background-color: #4297B7;
-    margin: 10px;
+    background-color: #4062F5;
     display: none;
 }
 /* settings ui me agar h1 hota hei */
@@ -93,8 +92,8 @@ h1 {
 }
 /* settings ui ke under hr hota hei to */
 #settings-ui .unline {
-    width: 150px;
-    margin-left: 78px;
+    width: 190px;
+    margin-left: 98px;
     
 }
 /* settings ke under Circle user ka icon hota hei to*/
