@@ -30,7 +30,7 @@ backBtn.addEventListener("click",() => {
   heading.style.display = "block";
   uploadMessage.style.display = "block";
   backBtn.style.display = "none";
-  uploadMessage.style.display = "none";
+  uploadMessage.style.display = "block";
   settingsUI.style.display = "none";
 })
 

@@ -5,7 +5,7 @@
 /* body style*/
 body {
     font-family: sans-serif;
-    background-color: #696EFF;
+    background-color: #393FFF;
     color: black;
 }
 /* heading style*/
@@ -22,7 +22,7 @@ h1 {
     font-size: 19px;
     margin: 10px;
     text-transform: uppercase;
-    background-color: #0397A7;
+    background-color: #00C3D8;
     color: white;
     border: none;
     cursor: pointer;
@@ -32,7 +32,7 @@ h1 {
 }
 
 #upload-button:hover {
-    background-color: #008AAB;
+    background-color: #01A6B8;
 }
 /* back button style*/
 #back {
@@ -41,7 +41,7 @@ h1 {
     font-size: 19px;
     margin: 10px;
     text-transform: uppercase;
-    background-color: #FF7939;
+    background-color: #00C3B8;
     color: white;
     border: none;
     cursor: pointer;
@@ -75,7 +75,7 @@ h1 {
 #settings-ui {
     width: 100%;
     height: 300px;
-    background-color: #4062F5;
+    background-color: #1470FF;
     display: none;
 }
 /* settings ui me agar h1 hota hei */

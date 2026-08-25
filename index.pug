@@ -14,16 +14,21 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
 
         meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        )
+
         title mashmodes
 
     body
 
         //- Mashmods heading
-        h1#heading mashmodes
+        .mashmodsHeading
+            h1#heading mashmodes
 
+        //- Settings icon
         .gear-class
-            //- Settings icon
             i.fa-sharp.fa-solid.fa-gear#settings
 
         //- Back button
@@ -41,7 +46,7 @@ html(lang="en")
                 onclick="openGallery()"
             ) upload
 
-        //- HR line
+        //- Upload button line
         hr.head-line-ar#addLine
 
         //- Upload message
@@ -62,6 +67,7 @@ html(lang="en")
 
             hr
 
+        //- JavaScript
         script(
             type="text/javascript"
             charset="utf-8"
