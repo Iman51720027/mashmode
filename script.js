@@ -13,7 +13,7 @@ var settings = document.getElementById("settings");
 // settings-ui varible 
 let settingsUI = document.getElementById("settings-ui");
 // settings me jab click hota bei
-settings.addEventListener("click",() => {
+settings.addEventListener("click", () => {
   upload.style.display = "none";
   settings.style.display = "none";
   addLine.style.display = "none";
@@ -23,7 +23,7 @@ settings.addEventListener("click",() => {
   settingsUI.style.display = "block"
 })
 // back me click hota hei
-backBtn.addEventListener("click",() => {
+backBtn.addEventListener("click", () => {
   upload.style.display = "flex";
   settings.style.display = "block";
   addLine.style.display = "block";
@@ -36,39 +36,51 @@ backBtn.addEventListener("click",() => {
 
 
 function openGallery() {
-
-    const input = document.getElementById("galleryInput");
-
-    /*
-      showPicker() থাকলে browser-এর native
-      picker খুলবে।
-    */
-    if (input.showPicker) {
-        try {
-            input.showPicker();
-            return;
-        } catch (e) {}
-    }
-
-    input.click();
+  
+  const input = document.getElementById("galleryInput");
+  
+  /*
+    showPicker() থাকলে browser-এর native
+    picker খুলবে।
+  */
+  if (input.showPicker) {
+    try {
+      input.showPicker();
+      return;
+    } catch (e) {}
+  }
+  
+  input.click();
 }
 
 
 document.getElementById("galleryInput")
-.addEventListener("change", function () {
+  .addEventListener("change", function() {
     
     const file = this.files[0];
-
+    
     if (!file) return;
-
+    // file varification karega
+    if (!file.name.toLowerCase().endsWith(".apk")) {
+      alert("only apk allowed");
+      return;
+    }
     const preview = document.getElementById("preview");
-
+    
     preview.innerHTML = "";
-
-    const image = document.createElement("img");
-
-    image.src = URL.createObjectURL(file);
-
-    preview.appendChild(image);
+    
+    const apkURL = URL.createObjectURL(file);
+    const apkSizeMB = (file.size / (1024 * 1024)).toFixed(2);
+    // card Rander karega 
+    const oneCard = document.createElement("div");
+    oneCard.className = "oneCart";
+    oneCard.innerHTML =`
+    <h3 class="apkName">Name:- ${file.name}</h3><br>
+    <p class="fileSize">Size:- ${apkSizeMB}</p><br>
+    <a href="${apkURL}" dawnload="${file.name}">
+     <button class="dawnloadBtn">Dawnload</button>
+     </a>
+    `;
+    preview.appendChild(oneCard);
     uploadMessage.style.display = "none";
-});
+  });

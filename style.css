@@ -75,7 +75,7 @@ h1 {
 #settings-ui {
     width: 100%;
     height: 300px;
-    background-color: #1470FF;
+    background-color: #1597AD;
     display: none;
 }
 /* settings ui me agar h1 hota hei */
@@ -84,6 +84,7 @@ h1 {
     font-size: 20px;
     position: relative;
     top: 10px;
+    color: white;
 }
 /* settings ui ke under agar acount hota hei to */
 #settings-ui #acounts {
@@ -134,4 +135,32 @@ input[type="file"] {
     color: #aaa;
     font-size: 13px;
     word-break: break-word;
+}
+.oneCart {
+    width: 80%;
+    height: 170px;
+    position: relative;
+    left: 30px;
+    background-color: #1883CE;
+}
+.dawnloadBtn {
+    width: 130px;
+    height: 40px;
+    padding-top: 6px;
+    position: relative;
+    left: 10px;
+    border: 1px solid white;
+}
+
+.apkName {
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.fileSize {
+    position: relative;
+    left: 10px;
+    color: white;
 }
