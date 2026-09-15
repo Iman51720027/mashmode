@@ -1,22 +1,25 @@
+/* universal selector var */
+/* body color var */
+/* regylar uses value */
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #6fb7ff;
+  background-color: #9ecdfc;
   font-family: sans-serif;
 }
 
 h1 {
   position: relative;
-  left: 7px;
+  left: 11px;
   color: white;
   text-transform: uppercase;
   margin-top: 15px;
   font-weight: bold;
   position: relative;
-  left: 7px;
+  left: 11px;
 }
 
 hr {
@@ -31,6 +34,13 @@ p {
   font-size: 18px;
 }
 
-
+/* setting icon style */
+#settings_icon i {
+  font-size: 33px;
+  position: relative;
+  left: 320px;
+  bottom: 50px;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
