@@ -66,12 +66,13 @@ p {
   text-align: center;
   color: white;
   text-transform: capitalize;
-  position: absolute;
-  top: 2px;
-  left: 110px;
+  text-align: center;
   font-width: bold;
   user-select: none;
   -webkit-user-select: none;
+  position: absolute;
+  right: 8px;
+  bottom: 650px;
 }
 #settings_mane a {
   display: none;
@@ -94,11 +95,8 @@ p {
   border: none;
   cursor: pointer;
   display: none;
-  position: relative;
-  left: 3px;
-  top: 3px;
-  bottom: 8px;
-  border-radius: 2px;
+  position: absolute;
+  left: 5px;
 }
 
 #back-btn:hover {
@@ -117,6 +115,7 @@ p {
   background-color: #00ccff;
   border: none;
   color: white;
+  font-size: 18px;
   position: relative;
   left: 11px;
 }
@@ -130,6 +129,7 @@ p {
   background-color: #00ccff;
   border: none;
   color: white;
+  font-size: 18px;
   position: relative;
   left: 11px;
 }

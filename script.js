@@ -41,7 +41,12 @@ var dark_theme = document.getElementById("dark-theme");
 var light_theme = document.getElementById("light-theme");
 
 dark_theme.addEventListener('click', function() {
-      document.body.style.backgroundColor = "black";
+      document.body.style.backgroundColor = "#00177e";
   dark_theme.style.display = "none";
   light_theme.style.display = "inline";
+})
+
+light_theme.addEventListener('click', function() {
+  light_theme.style.display = "none";
+  dark_theme.style.display = "inline"; document.body.style.backgroundColor = "#5faaf7";
 })

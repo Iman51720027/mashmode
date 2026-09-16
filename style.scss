@@ -78,18 +78,19 @@ p {
   }
 }
 #settings_mane {
-  h3 {
+  h3{
     font-size: 28px;
     display: $NoneDisplay;
     text-align: $CenterAlign;
     color: $colorVar;
     text-transform: $CalizValue;
-    position: $AbsolutPosition;
-    top: 2px;
-    left: 110px;
+    text-align: $CenterAlign;
     font-width: $boldText;
   user-select: $NoneDisplay;
   -webkit-user-select: $NoneDisplay;
+    position: $AbsolutPosition;
+    right: 8px;
+    bottom: 650px;
   }
   a {
     display: $NoneDisplay;
@@ -115,11 +116,8 @@ $height: 40px;
   border: $NoneDisplay;
   cursor: $pointerCursor;
   display: $NoneDisplay;
-  position: $Relposition;
-  left: 3px;
-  top: 3px;
-  bottom: 8px;
-  border-radius: 2px;
+  position: $AbsolutPosition;
+  left: 5px;
 }
 
 #back-btn:hover {
@@ -139,6 +137,7 @@ $theneWidth: 110px;
     background-color: $blueColorVar1;
     border: $NoneDisplay;
     color: $colorVar;
+    font-size: 18px;
     position: $Relposition;
     left: 11px;
   }
@@ -152,6 +151,7 @@ $theneWidth: 110px;
     background-color: $blueColorVar1;
     border: $NoneDisplay;
     color: $colorVar;
+    font-size: 18px;
     position: $Relposition;
     left: 11px;
   }
