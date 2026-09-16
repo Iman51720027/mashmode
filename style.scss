@@ -24,6 +24,8 @@ $blueColorVar: hwb(187 14% 0%);
 $pointerCursor: pointer;
 /* back button hover var */
 $bckBtnHoverColor:  hwb(182 17% 2%);
+/* other bg color */
+$blueColorVar1: hwb(192 0% 0%);
 /* bold text var */
 $boldText: bold;
 * {
@@ -134,6 +136,11 @@ $theneWidth: 110px;
     height: $height;
     position: $Relposition;
     top: 140px;
+    background-color: $blueColorVar1;
+    border: $NoneDisplay;
+    color: $colorVar;
+    position: $Relposition;
+    left: 11px;
   }
   #light-theme {
     display: $NoneDisplay;
@@ -142,6 +149,10 @@ $theneWidth: 110px;
     position: $Relposition;
     top: 140px;
     cursor: $pointerCursor;
+    background-color: $blueColorVar1;
+    border: $NoneDisplay;
+    color: $colorVar;
+    position: $Relposition;
+    left: 11px;
   }
-  
 }

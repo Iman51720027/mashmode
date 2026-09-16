@@ -22,7 +22,7 @@ setting_icon.addEventListener('click',function () {
   a.style.display = "inline";
   backBtn.style.display = "inline";
   dark_theme.style.display = "inline";
-  light_theme.style.display = "inline";
+  light_theme.style.display = "no ne";
 })
 // backBtn event
 backBtn.addEventListener('click',function () {
@@ -33,7 +33,15 @@ backBtn.addEventListener('click',function () {
   h3.style.display = "none";
   a.style.display = "none";
   backBtn.style.display = "none";
+  dark_theme.style.display = "none";
+  light_theme.style.display = "none";
 })
 
 var dark_theme = document.getElementById("dark-theme");
 var light_theme = document.getElementById("light-theme");
+
+dark_theme.addEventListener('click', function() {
+      document.body.style.backgroundColor = "black";
+  dark_theme.style.display = "none";
+  light_theme.style.display = "inline";
+})

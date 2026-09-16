@@ -11,6 +11,7 @@
 /* blue color var  */
 /* pointer cursor var */
 /* back button hover var */
+/* other bg color */
 /* bold text var */
 * {
   margin: 0;
@@ -113,6 +114,11 @@ p {
   height: 40px;
   position: relative;
   top: 140px;
+  background-color: #00ccff;
+  border: none;
+  color: white;
+  position: relative;
+  left: 11px;
 }
 #theme #light-theme {
   display: none;
@@ -121,6 +127,11 @@ p {
   position: relative;
   top: 140px;
   cursor: pointer;
+  background-color: #00ccff;
+  border: none;
+  color: white;
+  position: relative;
+  left: 11px;
 }
 
 /*# sourceMappingURL=style.css.map */
