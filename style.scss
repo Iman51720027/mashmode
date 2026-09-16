@@ -11,7 +11,9 @@ $CalizValue: capitalize;
 $UpperValue: uppercase;
 $NoneDisplay: none;
 $CenterAlign: center;
-
+$blueColorVar: hwb(187 14% 0%);
+$pointerCursor: pointer;
+$bckBtnHoverColor:  hwb(182 0% 22%);
 * {
   margin: $universalSelMargin;
   padding: $universalSelPadding;
@@ -68,4 +70,21 @@ p {
     position: $AbsolutPosition;
     left: 10px;
   }
+}
+
+#back-btn {
+  width: 80px;
+  height: 40px;
+  background-color: $blueColorVar;
+  color: $colorVar;
+  border: $NoneDisplay;
+  cursor: $pointerCursor;
+  display: $NoneDisplay;
+  position: $Relposition;
+  left: 280px;
+  top: 10px;
+}
+
+#back-btn:hover {
+  background-color: $bckBtnHoverColor;
 }

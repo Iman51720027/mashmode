@@ -55,4 +55,21 @@ p {
   left: 10px;
 }
 
+#back-btn {
+  width: 80px;
+  height: 40px;
+  background-color: hsl(187, 100%, 57%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  position: relative;
+  left: 280px;
+  top: 10px;
+}
+
+#back-btn:hover {
+  background-color: hsl(182, 100%, 39%);
+}
+
 /*# sourceMappingURL=style.css.map */
