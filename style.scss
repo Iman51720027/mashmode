@@ -2,10 +2,15 @@
 $universalSelMargin: 0;
 $universalSelPadding: 0;
 /* body color var */
-$bodyBgColorVar:  #9ecdfc;
+$bodyBgColorVar:  #79b4f0;
 /* regylar uses value */ 
 $colorVar: white;
-$position: relative;
+$Relposition: relative;
+$AbsolutPosition: absolute;
+$CalizValue: capitalize;
+$UpperValue: uppercase;
+$NoneDisplay: none;
+$CenterAlign: center;
 
 * {
   margin: $universalSelMargin;
@@ -18,35 +23,49 @@ body {
 }
 
 h1 {
-  position: $position;
+  position: $Relposition;
   left: 11px;
   color: $colorVar;
-  text-transform: uppercase;
+  text-transform: $UpperValue;
   margin-top: 15px;
   font-weight: bold;
-  position: relative;
-  left: 11px;
 }
 
 hr {
   border: 1px solid $colorVar;
-  position: relative;
+  position: $Relposition;
   bottom: 10px;
 }
 
 p {
-  text-align: center;
+  text-align: $CenterAlign;
   color: $colorVar;
   font-size: 18px;
+  text-transform: $CalizValue;
 }
 
 /* setting icon style */
 #settings_icon {
   i {
-    font-size: 33px;
-    position: $position;
+    font-size: 32px;
+    position: $Relposition;
     left: 320px;
     bottom: 50px;
     color: $colorVar;
+  }
+}
+
+#settings_mane {
+  h3 {
+    display: $NoneDisplay;
+    text-align: $CenterAlign;
+    color: $colorVar;
+    text-transform: $CalizValue;
+  }
+  a {
+    display: $NoneDisplay;
+    color: $colorVar;
+    position: $AbsolutPosition;
+    left: 10px;
   }
 }

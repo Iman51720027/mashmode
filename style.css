@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #9ecdfc;
+  background-color: #79b4f0;
   font-family: sans-serif;
 }
 
@@ -18,8 +18,6 @@ h1 {
   text-transform: uppercase;
   margin-top: 15px;
   font-weight: bold;
-  position: relative;
-  left: 11px;
 }
 
 hr {
@@ -32,15 +30,29 @@ p {
   text-align: center;
   color: white;
   font-size: 18px;
+  text-transform: capitalize;
 }
 
 /* setting icon style */
 #settings_icon i {
-  font-size: 33px;
+  font-size: 32px;
   position: relative;
   left: 320px;
   bottom: 50px;
   color: white;
+}
+
+#settings_mane h3 {
+  display: none;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+#settings_mane a {
+  display: none;
+  color: white;
+  position: absolute;
+  left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
