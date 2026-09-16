@@ -43,18 +43,26 @@ p {
 }
 
 #settings_mane h3 {
+  font-size: 28px;
   display: none;
   text-align: center;
   color: white;
   text-transform: capitalize;
+  position: absolute;
+  top: 2px;
+  left: 110px;
+  font-width: bold;
 }
 #settings_mane a {
   display: none;
   color: white;
   position: absolute;
+  top: 80px;
   left: 10px;
+  font-size: 15px;
 }
 
+/* regular btn width + height var */
 #back-btn {
   width: 80px;
   height: 40px;
@@ -64,12 +72,12 @@ p {
   cursor: pointer;
   display: none;
   position: relative;
-  left: 280px;
+  left: 10px;
   top: 10px;
 }
 
 #back-btn:hover {
-  background-color: hsl(182, 100%, 39%);
+  background-color: hsl(182, 95.2941176471%, 57.5%);
 }
 
 /*# sourceMappingURL=style.css.map */
