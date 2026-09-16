@@ -21,7 +21,8 @@ setting_icon.addEventListener('click',function () {
   h3.style.display = "block";
   a.style.display = "inline";
   backBtn.style.display = "inline";
-  //theme.style.display = "inline";
+  dark_theme.style.display = "inline";
+  light_theme.style.display = "inline";
 })
 // backBtn event
 backBtn.addEventListener('click',function () {
@@ -33,3 +34,6 @@ backBtn.addEventListener('click',function () {
   a.style.display = "none";
   backBtn.style.display = "none";
 })
+
+var dark_theme = document.getElementById("dark-theme");
+var light_theme = document.getElementById("light-theme");

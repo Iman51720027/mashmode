@@ -2,18 +2,29 @@
 $universalSelMargin: 0;
 $universalSelPadding: 0;
 /* body color var */
-$bodyBgColorVar:  #79b4f0;
+$bodyBgColorVar:  #5faaf7;
 /* regylar uses value */ 
+/* color var */
 $colorVar: white;
+/* position relative */
 $Relposition: relative;
+/* position absolute */
 $AbsolutPosition: absolute;
+/* capitalize var */
 $CalizValue: capitalize;
+/* upper var */
 $UpperValue: uppercase;
+/* none display var */
 $NoneDisplay: none;
+/* align center var */
 $CenterAlign: center;
+/* blue color var  */
 $blueColorVar: hwb(187 14% 0%);
+/* pointer cursor var */
 $pointerCursor: pointer;
+/* back button hover var */
 $bckBtnHoverColor:  hwb(182 17% 2%);
+/* bold text var */
 $boldText: bold;
 * {
   margin: $universalSelMargin;
@@ -32,12 +43,17 @@ h1 {
   text-transform: $UpperValue;
   margin-top: 15px;
   font-weight: bold;
+  user-select: $NoneDisplay;
+  -webkit-user-select: $NoneDisplay;
 }
 
 hr {
   border: 1px solid $colorVar;
   position: $Relposition;
   bottom: 10px;
+  user-select: $NoneDisplay;
+  -webkit-user-select: $NoneDisplay;
+
 }
 
 p {
@@ -45,6 +61,8 @@ p {
   color: $colorVar;
   font-size: 18px;
   text-transform: $CalizValue;
+  user-select: $NoneDisplay;
+  -webkit-user-select: $NoneDisplay;
 }
 
 /* setting icon style */
@@ -53,7 +71,7 @@ p {
     font-size: 32px;
     position: $Relposition;
     left: 320px;
-    bottom: 50px;
+    bottom: 55px;
     color: $colorVar;
   }
 }
@@ -68,21 +86,25 @@ p {
     top: 2px;
     left: 110px;
     font-width: $boldText;
+  user-select: $NoneDisplay;
+  -webkit-user-select: $NoneDisplay;
   }
   a {
     display: $NoneDisplay;
     color: $colorVar;
     position: $AbsolutPosition;
-    top: 80px;
+    top: 100px;
     left: 10px;
     font-size: 15px;
+  user-select: $NoneDisplay;
+  -webkit-user-select: $NoneDisplay;
   }
 }
 
 /* regular btn width + height var */
 $width: 80px;
 $height: 40px;
-
+/* back btn */
 #back-btn {
   width: $width;
   height: $height;
@@ -92,10 +114,34 @@ $height: 40px;
   cursor: $pointerCursor;
   display: $NoneDisplay;
   position: $Relposition;
-  left: 10px;
-  top: 10px;
+  left: 3px;
+  top: 3px;
+  bottom: 8px;
+  border-radius: 2px;
 }
 
 #back-btn:hover {
-  background-color: $bckBtnHoverColor;
+  background-color:$bckBtnHoverColor;
+}
+/* thme width + height var */
+$theneWidth: 110px;
+/* thene btn */
+#theme {
+  #dark-theme {
+    cursor: $pointerCursor;
+    display: $NoneDisplay;
+    width: $theneWidth;
+    height: $height;
+    position: $Relposition;
+    top: 140px;
+  }
+  #light-theme {
+    display: $NoneDisplay;
+    width: $theneWidth;
+    height: $height;
+    position: $Relposition;
+    top: 140px;
+    cursor: $pointerCursor;
+  }
+  
 }

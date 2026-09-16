@@ -1,13 +1,24 @@
 /* universal selector var */
 /* body color var */
 /* regylar uses value */
+/* color var */
+/* position relative */
+/* position absolute */
+/* capitalize var */
+/* upper var */
+/* none display var */
+/* align center var */
+/* blue color var  */
+/* pointer cursor var */
+/* back button hover var */
+/* bold text var */
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #79b4f0;
+  background-color: #5faaf7;
   font-family: sans-serif;
 }
 
@@ -18,12 +29,16 @@ h1 {
   text-transform: uppercase;
   margin-top: 15px;
   font-weight: bold;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 hr {
   border: 1px solid white;
   position: relative;
   bottom: 10px;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 p {
@@ -31,6 +46,8 @@ p {
   color: white;
   font-size: 18px;
   text-transform: capitalize;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 /* setting icon style */
@@ -38,7 +55,7 @@ p {
   font-size: 32px;
   position: relative;
   left: 320px;
-  bottom: 50px;
+  bottom: 55px;
   color: white;
 }
 
@@ -52,17 +69,22 @@ p {
   top: 2px;
   left: 110px;
   font-width: bold;
+  user-select: none;
+  -webkit-user-select: none;
 }
 #settings_mane a {
   display: none;
   color: white;
   position: absolute;
-  top: 80px;
+  top: 100px;
   left: 10px;
   font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 /* regular btn width + height var */
+/* back btn */
 #back-btn {
   width: 80px;
   height: 40px;
@@ -72,12 +94,33 @@ p {
   cursor: pointer;
   display: none;
   position: relative;
-  left: 10px;
-  top: 10px;
+  left: 3px;
+  top: 3px;
+  bottom: 8px;
+  border-radius: 2px;
 }
 
 #back-btn:hover {
   background-color: hsl(182, 95.2941176471%, 57.5%);
+}
+
+/* thme width + height var */
+/* thene btn */
+#theme #dark-theme {
+  cursor: pointer;
+  display: none;
+  width: 110px;
+  height: 40px;
+  position: relative;
+  top: 140px;
+}
+#theme #light-theme {
+  display: none;
+  width: 110px;
+  height: 40px;
+  position: relative;
+  top: 140px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
