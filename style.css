@@ -35,9 +35,9 @@ h1 {
 }
 
 hr {
-  border: 1px solid white;
+  border: 2px solid white;
   position: relative;
-  bottom: 10px;
+  bottom: 2px;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -71,8 +71,12 @@ p {
   user-select: none;
   -webkit-user-select: none;
   position: absolute;
-  right: 8px;
+  right: 10px;
   bottom: 650px;
+}
+#settings_mane #settings-manu-hr {
+  display: none;
+  border: 2px solid white;
 }
 #settings_mane a {
   display: none;
@@ -95,8 +99,9 @@ p {
   border: none;
   cursor: pointer;
   display: none;
-  position: absolute;
-  left: 5px;
+  position: relative;
+  left: 10px;
+  bottom: 25px;
 }
 
 #back-btn:hover {

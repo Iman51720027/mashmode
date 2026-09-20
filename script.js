@@ -10,6 +10,7 @@ var hr = document.getElementsByTagName("hr")[0];
 var h3= document.getElementsByTagName("h3")[0];
 // a var 
 var a = document.getElementsByTagName("a")[0];
+var setting_manu_hr = document.getElementById("settings-manu-hr")
 // back btn var
 var backBtn = document.getElementById("back-btn");
 // setting_icon event
@@ -23,6 +24,7 @@ setting_icon.addEventListener('click',function () {
   backBtn.style.display = "inline";
   dark_theme.style.display = "inline";
   light_theme.style.display = "no ne";
+  setting_manu_hr.style.display = "block";
 })
 // backBtn event
 backBtn.addEventListener('click',function () {
@@ -35,6 +37,7 @@ backBtn.addEventListener('click',function () {
   backBtn.style.display = "none";
   dark_theme.style.display = "none";
   light_theme.style.display = "none";
+  setting_manu_hr.style.display = "none";
 })
 
 var dark_theme = document.getElementById("dark-theme");

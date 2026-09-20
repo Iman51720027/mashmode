@@ -50,9 +50,9 @@ h1 {
 }
 
 hr {
-  border: 1px solid $colorVar;
+  border: 2px solid $colorVar;
   position: $Relposition;
-  bottom: 10px;
+  bottom: 2px;
   user-select: $NoneDisplay;
   -webkit-user-select: $NoneDisplay;
 
@@ -89,8 +89,12 @@ p {
   user-select: $NoneDisplay;
   -webkit-user-select: $NoneDisplay;
     position: $AbsolutPosition;
-    right: 8px;
+    right: 10px;
     bottom: 650px;
+  }
+  #settings-manu-hr {
+    display: none;
+    border: 2px solid $colorVar;
   }
   a {
     display: $NoneDisplay;
@@ -116,8 +120,10 @@ $height: 40px;
   border: $NoneDisplay;
   cursor: $pointerCursor;
   display: $NoneDisplay;
-  position: $AbsolutPosition;
-  left: 5px;
+  position: $Relposition;
+  left: 10px;
+  bottom: 25px;
+  
 }
 
 #back-btn:hover {
