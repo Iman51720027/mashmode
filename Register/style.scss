@@ -1,5 +1,52 @@
-$txt-aln: center;
+/* univarsal selector */
+*{
+  margin: 0;
+  padding: 0;
+}
 
+$bg-color: hwb(218 72% 2% / 0.8313725490196079);
+
+body {
+  background-color: $bg-color;
+}
+$txt-aln: center;
+$relpos: relative;
+$posLft: 10px;
+$fnt-size: 16px;
+$in-bg-col: hwb(218 58% 0%);
+$capliz: capitalize;
+$noneVal: none;
+$ponter: pointer;
 h1 {
   text-align: $txt-aln;
+}
+
+form {
+  label {
+    position: $relpos;
+    left: $posLft;
+    text-transform: $capliz;
+  }
+  input {
+    width: 290px;
+    height: 30px;
+    position: $relpos;
+    left: $posLft;
+    font-size: $fnt-size;
+    background-color: $in-bg-col;
+    color: white;
+    border: 1px solid black;
+  }
+  #reset {
+    width: 110px;
+    height: 40px;
+    border: $noneVal;
+    cursor: $ponter;
+  }
+  #submit {
+    width: 110px;
+    height: 40px;
+    border: $noneVal;
+    cursor: $ponter;
+  }
 }

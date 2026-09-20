@@ -1,5 +1,43 @@
+/* univarsal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsla(218, 86.6666666667%, 85%, 0.831372549);
+}
+
 h1 {
   text-align: center;
+}
+
+form label {
+  position: relative;
+  left: 10px;
+  text-transform: capitalize;
+}
+form input {
+  width: 290px;
+  height: 30px;
+  position: relative;
+  left: 10px;
+  font-size: 16px;
+  background-color: hsl(218, 100%, 79%);
+  color: white;
+  border: 1px solid black;
+}
+form #reset {
+  width: 110px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+form #submit {
+  width: 110px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
